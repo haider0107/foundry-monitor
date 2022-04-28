@@ -1,0 +1,10 @@
+.login-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30vh;
+    min-height: 30vh;
+    background-color: #FAF9F6;
+    margin-top: 20%;
+    border-radius: 3rem;
+}

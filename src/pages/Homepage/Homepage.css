@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 60%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.content {
+    text-align: left;
+    min-width: 20%;
+}
+
+.image {
+    min-width: 60%;
+    margin-top: 5%
+}
+
+.banner-image {
+    width: 85%;
+    height: 75%;
+}
+
+.content-text-title {
+    color: #1976d2;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.content-text {
+    margin-top: 5%;
+    font-size: 1.2rem;
+}
+
+.learn-more-button {
+    margin-top: 4%;
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-width: 80%;
+    flex-direction: column;
+}
+
+.partner-image {
+    width: 20%;
+    height: 20%;
+}
+
+.footer {
+    display: fixed;
+    background-color: #1976d2;
+    text-align: center;
+    color: #FFF;
+    padding: 0.3rem;
+}

@@ -1,0 +1,16 @@
+.login-box-contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-fields {
+    margin-top: 5%;
+}
+
+.login-error {
+    padding: 5px;
+    color:firebrick;
+    font-weight: bold;
+}

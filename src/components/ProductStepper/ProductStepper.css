@@ -1,0 +1,11 @@
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    text-align: center;
+    width: 80%;
+    margin-top: 3%; 
+}
