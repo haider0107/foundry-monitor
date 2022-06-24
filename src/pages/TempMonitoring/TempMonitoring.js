@@ -45,7 +45,9 @@ function TempMonitoring() {
   return (
     <div>
       <div className="title">
-        <Typography variant="h2">Temperature</Typography>
+        <Typography variant="h2" textAlign="left">
+          Live Monitoring of the Furnace Tempature
+        </Typography>
       </div>
       <div className="main-container">
         <div className="table-container">
@@ -96,7 +98,7 @@ function TempMonitoring() {
         </div>
         <div className="table-container">
           <img
-            src="https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg"
+            src="https://thumbs.dreamstime.com/b/industrial-thermometer-industrial-thermometer-temperature-index-production-102508784.jpg"
             alt="hello"
             width="50%"
           />
