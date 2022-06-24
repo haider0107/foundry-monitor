@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Button from "@mui/material/Button";
+// import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-router-dom";
 
@@ -144,23 +144,44 @@ const Navbar = () => {
             ))}
           </Box>
 
-          <Box sx={{ flexGrow: 0 }}>
+          <Box sx={{ flexGrow: 0, display: { xs: "none", md: "flex" } }}>
             {cookie ? (
               <div style={{ display: "flex", flexDirection: "row" }}>
                 <Link
                   to="my-account"
                   style={{
                     my: 2,
+                    width: "fit-content",
                     color: "white",
                     display: "block",
                     textDecoration: "None",
+                    marginRight: "2%",
+                    marginLeft: "2%",
                   }}
                 >
                   My Account
                 </Link>
+                <Link
+                  to="temp-monitoring"
+                  style={{
+                    my: 2,
+                    width: "fit-content",
+                    color: "white",
+                    display: "block",
+                    textDecoration: "None",
+                    marginRight: "2%",
+                    marginLeft: "2%",
+                  }}
+                >
+                  Temprature Monitoring
+                </Link>
                 <Typography
                   textAlign="center"
-                  style={{ marginLeft: "15px", cursor: "pointer" }}
+                  style={{
+                    marginLeft: "15px",
+                    cursor: "pointer",
+                    width: "fit-content",
+                  }}
                   onClick={logout}
                 >
                   Log Out

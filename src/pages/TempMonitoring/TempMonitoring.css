@@ -1,0 +1,14 @@
+.title{
+    text-align: center;
+}
+
+.main-container{
+    display: flex;
+    margin: 1rem;
+}
+
+.table-container{
+    width: 50%;
+    
+    padding: 1%;
+}

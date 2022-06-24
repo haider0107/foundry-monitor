@@ -1,7 +1,7 @@
 import React from "react";
-import { styled } from "@mui/material/styles";
+// import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
-import Paper from "@mui/material/Paper";
+// import Paper from "@mui/material/Paper";
 import "./Homepage.css";
 
 export default function Homepage() {

@@ -32,6 +32,7 @@ export default function LiveTracking() {
           setTimeout(() => {
             setNotFound(false);
           }, 3000);
+          return 0;
         }
       })
     );
