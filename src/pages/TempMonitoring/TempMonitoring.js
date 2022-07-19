@@ -46,7 +46,7 @@ function TempMonitoring() {
     <div>
       <div className="title">
         <Typography variant="h2" textAlign="left">
-          Live Monitoring of the Furnace Tempature
+          Live Monitoring of the Furnace Temperature
         </Typography>
       </div>
       <div className="main-container">

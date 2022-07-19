@@ -24,3 +24,9 @@
     color:firebrick;
     text-align: center;
 }
+
+.company-modal{
+    text-align: center;
+    /* background-color: red; */
+    margin-bottom: 2%;
+}

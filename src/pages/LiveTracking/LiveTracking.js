@@ -3,6 +3,7 @@ import { InputBase } from "@mui/material";
 import { IconButton } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import ProductStepper from "../../components/ProductStepper/ProductStepper";
+import CompanyModal from "../../components/CompanyModal/CompanyModal";
 import "./LiveTracking.css";
 
 const data = [
@@ -11,7 +12,7 @@ const data = [
     company: "HighFi Metacast",
     pattern: "Single Piece",
     moulding: "Double Piece",
-    activeStep: 3,
+    activeStep: 4,
     count: [600, 500, 450],
   },
 ];
@@ -59,8 +60,47 @@ export default function LiveTracking() {
           </IconButton>
         </div>
       </div>
+
       {showStepper && stepperContent ? (
         <div className="stepper-container">
+          <div className="company-modal">
+            <CompanyModal
+              name="Company Ashok Irons"
+              companyID="AKI0023"
+              contact="9856547845"
+              location="Katki,Belgaum"
+            />
+          </div>
+          <ProductStepper content={stepperContent} />
+        </div>
+      ) : null}
+
+      {showStepper && stepperContent ? (
+        <div className="stepper-container">
+          <div className="company-modal">
+            <CompanyModal
+              className="company-modal"
+              name="Company JSC Steels"
+              companyID="JSI0059"
+              contact="9856547845"
+              location="Katki,Belgaum"
+            />
+          </div>
+          <ProductStepper content={stepperContent} />
+        </div>
+      ) : null}
+
+      {showStepper && stepperContent ? (
+        <div className="stepper-container">
+          <div className="company-modal">
+            <CompanyModal
+              className="company-modal"
+              name="Company AKS Pipes"
+              companyID="API0011"
+              contact="9856547845"
+              location="Katki,Belgaum"
+            />
+          </div>
           <ProductStepper content={stepperContent} />
         </div>
       ) : null}
