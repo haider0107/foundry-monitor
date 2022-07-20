@@ -74,36 +74,6 @@ export default function LiveTracking() {
           <ProductStepper content={stepperContent} />
         </div>
       ) : null}
-
-      {showStepper && stepperContent ? (
-        <div className="stepper-container">
-          <div className="company-modal">
-            <CompanyModal
-              className="company-modal"
-              name="Company JSC Steels"
-              companyID="JSI0059"
-              contact="9856547845"
-              location="Katki,Belgaum"
-            />
-          </div>
-          <ProductStepper content={stepperContent} />
-        </div>
-      ) : null}
-
-      {showStepper && stepperContent ? (
-        <div className="stepper-container">
-          <div className="company-modal">
-            <CompanyModal
-              className="company-modal"
-              name="Company AKS Pipes"
-              companyID="API0011"
-              contact="9856547845"
-              location="Katki,Belgaum"
-            />
-          </div>
-          <ProductStepper content={stepperContent} />
-        </div>
-      ) : null}
     </>
   );
 }
